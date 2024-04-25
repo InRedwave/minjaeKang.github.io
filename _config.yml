@@ -41,65 +41,99 @@ additional_links:
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/minJaeKang.jpeg
 about_content: | # this will include new lines to allow paragraphs
-  `개발 경력` : 1년
+  `개발 경력`    : 1년
   Java & Spring 기반 BackEnd 개발자로 **공공기관 SM 유지보수** 경험을 가지고 있습니다.
   
   `엔지니어 경력` : 1년 11개월
   Color PR 생산기술 엔지니어 경력을 가지고 있습니다.
 content:
-  - title: Projects # Title for the section
+  - title: Work Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
+      - layout: top-left
+        title: 오티아이(OTI)
+        sub_title : Backend Engineer
+        caption : 2023.04 ~ Present
+        link: https://opentop.co.kr/
+        quote: >
+          공공기관 SM 업무 수행
+        description: | 
+          - 고용 24 전환 개발 경험 (xPlatform, Nexacro 활용)
+          - 유지보수 업무 수행
+      - layout: top-left
+        title: 엠티어(EMTIER)
+        sub_title : Engineer
+        caption : 2020.08 ~ 2022.06
+        link: https://www.emtier.com/
+        quote: >
+        description : |
+          - 공정 자동화 프로그램 설정, 관리 경험
+          - Color PR 제품 생산 기술 업무 경험
+
+  - title : 역량
+    layout: list
+    content:
+      - layout : left
+        title : 유지보수 업무
+
+  - title: 기술 스택
+    layout: list
+    content:
       - layout: left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
-        # other value (or no value) means no border will be displayed
-        title: Project name
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
-        additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        quote: >
-          Short overview of the project (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
-  - title: Experience
+        title: BackEnd
+        description: | 
+          - Java
+          - SpringBoot, Spring Legacy
+          - Gradle, Maven
+          - Eclipse, IntelliJ
+      - layout: left
+        title : DevOps
+        description : |
+          - iBatis, MyBatis
+          - Git
+      - layout : left
+        title : FrontEnd
+        description : |
+          - JavaScript
+          - xPlatform, Nexacro17
+
+  - title: 학력
     layout: list
     content:
-      - layout: right
-        title: Company name
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
-        link: Link to company (optional)
-        quote: >
-          Short description of the company (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of role
-  - title: Education
+      - layout: top-left
+        title: 건국대학교
+        sub_title: 화학공학부 학사
+        caption: 2017.02 ~ 2019.08
+        link:
+        link_text: 자세히 보기
+        description: | 
+          - 화학공학, 고분자공확 전공 지식 습득
+          - 졸업 논문 : 바이오매스 기반 폴리우레탄소재의 최근 기술 현황 및 연구동향 분석
+      - layout: top-left
+        title : 충남대학교
+        sub_title : 유기소재 섬유시스템공학과 학사
+        caption: 2012.03 ~ 2017.02
+        link:
+        link_text: 자세히 보기
+        description : |
+          -  고분자공학 전공
+      - layout : top-left
+        title : 잠신고등학교
+
+  - title : 활동
     layout: list
     content:
-      - layout: top-right
-        title: Institution name
-        sub_title: Qualifications (eg. BA Performing Arts)
-        caption: Date Range (eg. 2016 - 2019)
-        quote: >
-          Short institution or course description (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of qualification
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
-
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
-
+      - layout : top-left
+        title: SW 개발자 양성 과정
+        sub_title : 한국소프트웨어 산업협회
+        caption: 2022.08 ~ 2023.03
+        link:
+        link_text : 자세히 보기
+        description : |
+          - 개발자 기초 역량 습득
 # Footer
 footer_show_references: true
-# references_title: References on request (Override references text)
+references_title: 강민재-jisung1202@naver.com
 
 # Build settings
 # theme: modern-resume-theme (Use this is you are hosting your resume yourself)
